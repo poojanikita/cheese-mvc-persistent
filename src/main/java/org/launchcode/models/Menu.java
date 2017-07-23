@@ -42,5 +42,15 @@ public class Menu {
     public List<Cheese> getCheeses() {
         return cheeses;
     }
+
+    public void addItem(Cheese item) {
+        cheeses.add(item);
+    }
+
+    public Menu () { }
+
+    public Menu (String name) {
+        this.name = name;
+    }
 }
 
